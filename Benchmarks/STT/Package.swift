@@ -5,7 +5,7 @@ let package = Package(
     name: "STTGate",
     platforms: [.macOS(.v15)],
     dependencies: [
-        .package(url: "https://github.com/FluidInference/FluidAudio.git", exact: "0.17.4"),
+        .package(url: "https://github.com/FluidInference/FluidAudio.git", exact: "0.17.5"),
         .package(url: "https://github.com/argmaxinc/WhisperKit.git", exact: "1.1.0")
     ],
     targets: [
